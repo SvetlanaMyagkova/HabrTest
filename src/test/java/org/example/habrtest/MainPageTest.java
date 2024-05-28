@@ -82,7 +82,7 @@ public class MainPageTest {
 
 
 
-        assertTrue(driver.findElement(By.xpath("//*[contains(text(), 'Авторы')]")).isDisplayed(),"Авторы не найдены");
+        assertTrue(driver.findElement(By.xpath("//*[contains(text(), 'Имя')]")).isDisplayed(),"Имя не найдено");
     }
 
     @Test
